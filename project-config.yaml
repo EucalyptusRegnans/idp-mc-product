@@ -1,0 +1,14 @@
+# -----------------------------------------------------------------
+# Project Configuration File
+# This file contains static variables for the IDP-MC project.
+# It is used by AI assistants to get context-specific details
+# like repository URLs for generating commands.
+# -----------------------------------------------------------------
+
+# The username or organization on GitHub where the repositories are hosted.
+github_user_or_org: "EucalyptusRegnans"
+
+# The names of the two main repositories.
+repositories:
+  product: "idp-mc-product"
+  business: "idp-mc-business"
