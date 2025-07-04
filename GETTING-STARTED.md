@@ -8,7 +8,7 @@ Please choose from the options below by telling me the number of the task you wi
     *(This will guide you through the "Architectural Work Mode" and the development onboarding process)*
 
 **2. I have just finished some work and need to document it.**
-    *(This will guide you through the product documentation onboarding process)*
+    *(This can handle simple updates or full PBE Completion Reports)*
 
 **3. I need to find a specific procedure (e.g., how to create an ADR).**
     *(This will direct you to the USAGE-GUIDE-product.md)*
@@ -35,7 +35,10 @@ You will use this knowledge to direct the user based on their menu selection.
     * **THEN** explain the "Architectural Work Mode" from the `USAGE-GUIDE-product.md` and tell them they will need to start with the `onboarding/development.md` document (once it is created).
 
 * **IF** the user chooses **Option 2 (document completed work)**...
-    * **THEN** direct them to use the `product/docs/onboarding/product-documentation.md` onboarder.
+    * **THEN** you must ask the user for clarification: *"Are you documenting a simple, single item or documenting from a PBE Completion Report?"*
+    * Based on their answer:
+        * **IF** "simple, single item," **THEN** direct them to use the `product/docs/onboarding/product-documentation.md` onboarder.
+        * **IF** "PBE Completion Report," **THEN** direct them to use the new `docs/onboarding/pbe-documentation.md` onboarder.
 
 * **IF** the user chooses **Option 3 (learn a specific procedure)**...
     * **THEN** direct them to the relevant section of the `docs/USAGE-GUIDE-product.md`.

@@ -92,15 +92,15 @@ A key workflow for this documentation system is the use of dedicated **Onboardin
 | **Roadmap** | `roadmap.md` | YAML front-matter + optional narrative | Ryan |
 | **Issue Register** | `issues/issues.json` | JSON schema (§4.3) | AI Script |
 | **Usage Guide** | `docs/USAGE-GUIDE-product.md` | Free Markdown | Ryan/AI |
-| **Onboarding Doc** | `docs/onboarding/[name].md`| Free Markdown | Ryan/AI |
+| **Onboarding Doc** | `docs/onboarding/product-documentation.md`| Free Markdown | Ryan/AI |
+| **Onboarding Doc** | `docs/onboarding/system-evolution.md`| Free Markdown | Ryan/AI |
+| **Onboarding Doc** | `docs/onboarding/pbe-documentation.md`| Free Markdown | Ryan/AI |
 | **ADR** | `docs/adr/adr-###-slug.md` | Standard Front-Matter (§4.6) + Markdown body | Ryan |
 | **PBE Project Folder**| `docs/pbe/[YYYY-MM-DD]-[slug]/` | See §4.5 for required contents | Ryan |
 | **Coding Standard** | `coding-standards/[topic].md` | Standard Front-Matter (§4.6) + Free Markdown | Ryan/AI |
 | **Architecture Doc** |`docs/architecture/[topic].md`| Standard Front-Matter (§4.6) + Free Markdown | Ryan/AI |
 | **Security Spec** | `docs/security-spec.md` | Standard Front-Matter (§4.6) + Free Markdown | Ryan/AI |
 | **Engineering Handbook**| `docs/engineering-handbook.md` | Standard Front-Matter (§4.6) + Sections | Ryan |
-
-
 
 
 ### **4.2 Roadmap `roadmap.md` — YAML schema**
