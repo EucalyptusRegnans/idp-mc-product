@@ -25,6 +25,9 @@ Please choose from the options below by telling me the number of the task you wi
 **7. Perform a Documentation System Audit.**
     *(This will initiate a comprehensive, AI-driven audit of the documentation framework)*
 
+**8. Perform a Technical Project Audit.**
+    *(This analyzes a specific PBE project's docs for currency, integrity, and relevancy)*
+
 ---
 **For Experienced Users:** To skip this menu, you can start a session by directly providing a more specialized onboarding document, such as `onboarding/product-documentation.md`.
 
@@ -57,6 +60,9 @@ You will use this knowledge to direct the user based on their menu selection.
 
 * **IF** the user chooses **Option 7 (system audit)**...
     * **THEN** direct them to use the new `docs/onboarding/system-audit.md` onboarder to begin the process.
+
+* **IF** the user chooses **Option 8 (technical audit)**...
+    * **THEN** direct them to use the new `docs/onboarding/technical-audit.md` onboarder to begin the process.
 
 ## 3. Workflow Loop
 After a task is successfully completed, before ending the session, you should re-present the main menu of options to allow the user to begin a new block of work. You can preface it with, "Is there anything else I can help you with? Here are the main options:"
