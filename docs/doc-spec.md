@@ -1,7 +1,7 @@
 # **Documentation Specification v1.8**
 
 *For Mini Habit Echo — AI-First Solo-Dev Project*
-*Last-updated: 2025-07-03*
+*Last-updated: 2025-07-04*
 
 ## **1 | Purpose, Scope & System Architecture**
 
@@ -69,6 +69,8 @@ A key workflow for this documentation system is the use of dedicated **Onboardin
    ├─ USAGE-GUIDE-product.md
    ├─ adr/
    ├─ pbe/
+   ├─ audits/
+   ├─ templates/
    ├─ architecture/
    │  ├─ index.md
    │  └─ ...
@@ -92,9 +94,11 @@ A key workflow for this documentation system is the use of dedicated **Onboardin
 | **Roadmap** | `roadmap.md` | YAML front-matter + optional narrative | Ryan |
 | **Issue Register** | `issues/issues.json` | JSON schema (§4.3) | AI Script |
 | **Usage Guide** | `docs/USAGE-GUIDE-product.md` | Free Markdown | Ryan/AI |
+| **Report Template** | `docs/templates/[name].md`| Free Markdown | Ryan/AI |
 | **Onboarding Doc** | `docs/onboarding/product-documentation.md`| Free Markdown | Ryan/AI |
 | **Onboarding Doc** | `docs/onboarding/system-evolution.md`| Free Markdown | Ryan/AI |
 | **Onboarding Doc** | `docs/onboarding/pbe-documentation.md`| Free Markdown | Ryan/AI |
+| **Onboarding Doc** | `docs/onboarding/system-audit.md`| Free Markdown | Ryan/AI |
 | **ADR** | `docs/adr/adr-###-slug.md` | Standard Front-Matter (§4.6) + Markdown body | Ryan |
 | **PBE Project Folder**| `docs/pbe/[YYYY-MM-DD]-[slug]/` | See §4.5 for required contents | Ryan |
 | **Coding Standard** | `coding-standards/[topic].md` | Standard Front-Matter (§4.6) + Free Markdown | Ryan/AI |
