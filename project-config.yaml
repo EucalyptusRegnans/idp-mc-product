@@ -12,3 +12,7 @@ github_user_or_org: "EucalyptusRegnans"
 repositories:
   product: "idp-mc-product"
   business: "idp-mc-business"
+  
+  
+# This file holds non-sensitive configuration settings for the project.
+admin_password: "green"

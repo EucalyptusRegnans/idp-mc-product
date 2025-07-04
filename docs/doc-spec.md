@@ -27,7 +27,7 @@ A primary goal of this two-hub architecture is to enable effective and "clean" c
 
 A key workflow for this documentation system is the use of dedicated **Onboarding Documents**.
 
-  * **Purpose:** An onboarding document acts as a "bootloader" or **primary interface** for an AI assistant for a specific domain (e.g., documentation, development, marketing). Its purpose is to rapidly provide a new AI chat session with the role, context, and instructions it needs to become a specialized expert.
+  * **Purpose:** An onboarding document acts as a "bootloader" or **primary interface** for an AI assistant for a specific domain (e.g., documentation, development, marketing). Its purpose is to rapidly provide a new AI chat session with the role, context, and instructions it needs to become a specialized expert. This primary interface can be a direct set of instructions for the AI or, as in the case of `GETTING-STARTED.md`, a user-facing menu that guides the interaction.
   * **Core Function:** A well-designed onboarding document instructs the AI on what other key documents and context it needs, and then tells the AI to request those documents from the user. This turns the AI into an active participant in its own onboarding.
 
 ### **1.5 Scope**
@@ -88,6 +88,7 @@ A key workflow for this documentation system is the use of dedicated **Onboardin
 | :--- | :--- | :--- | :--- |
 | **Getting Started** | `GETTING-STARTED.md` | Free Markdown | Ryan |
 | **README** | `README.md` | Free Markdown | Ryan |
+| **Project Config** | `project-config.yaml` | YAML key-value pairs | Ryan |
 | **Roadmap** | `roadmap.md` | YAML front-matter + optional narrative | Ryan |
 | **Issue Register** | `issues/issues.json` | JSON schema (§4.3) | AI Script |
 | **Usage Guide** | `docs/USAGE-GUIDE-product.md` | Free Markdown | Ryan/AI |
@@ -98,7 +99,9 @@ A key workflow for this documentation system is the use of dedicated **Onboardin
 | **Architecture Doc** |`docs/architecture/[topic].md`| Standard Front-Matter (§4.6) + Free Markdown | Ryan/AI |
 | **Security Spec** | `docs/security-spec.md` | Standard Front-Matter (§4.6) + Free Markdown | Ryan/AI |
 | **Engineering Handbook**| `docs/engineering-handbook.md` | Standard Front-Matter (§4.6) + Sections | Ryan |
-| **Project Config** | `project-config.yaml` | N/A (Pure YAML) | Ryan |
+
+
+
 
 ### **4.2 Roadmap `roadmap.md` — YAML schema**
 
